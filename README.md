@@ -17,15 +17,10 @@
   - Redis
 
   ```bash
-  brew install redis
+  sudo apt install redis-server
   ```
   ```bash
   redis-server --daemonize yes
-  ```
-  - Vips
-
-  ```bash
-  brew install vips
   ```
 
   ## Install
