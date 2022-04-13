@@ -1,4 +1,4 @@
-## Turbochat
+## Chat
 
 ### Description
 
@@ -19,7 +19,3 @@ $ bin/setup
 ```bash
 $ bin/dev
 ```
-
-### License
-
-MIT – see `LICENSE`
