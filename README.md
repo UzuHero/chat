@@ -1,40 +1,25 @@
-## chat
+## Turbochat
 
-<details>
-  <summary>Description</summary>
+### Description
 
-  Simple chat with Hotwire, Turbo and Stimulus.
+Simple chat with Hotwire, Turbo and Stimulus.
 
-  Implemented in Ruby 3.0 using Rails 7.0 and PostgreSQL.
+Implemented in Ruby 3.0 using Rails 7.0 and PostgreSQL.
 
-</details>
+### Launching
 
-<details>
-  <summary>Launching</summary>
+1. Download or clone repo. Install all dependencies and prepare database
 
-  ## Prepare
+```bash
+$ bin/setup
+```
 
-  - Redis
+2. Start server
 
-  ```bash
-  sudo apt install redis-server
-  ```
-  ```bash
-  redis-server --daemonize yes
-  ```
+```bash
+$ bin/dev
+```
 
-  ## Install
+### License
 
-  1. Download or clone repo. Install all dependencies and prepare database
-
-  ```bash
-  $ bin/setup
-  ```
-
-  2. Start server
-
-  ```bash
-  $ bin/dev
-  ```
-</details>
-
+MIT – see `LICENSE`

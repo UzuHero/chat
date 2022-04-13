@@ -4,20 +4,5 @@
 
 import { application } from "./application"
 
-import AlertController from "./alert_controller.js"
-application.register("alert", AlertController)
-
-import DropdownController from "./dropdown_controller.js"
-application.register("dropdown", DropdownController)
-
-import MessageController from "./message_controller.js"
-application.register("message", MessageController)
-
-import ModalUserController from "./modal_user_controller.js"
-application.register("modal-user", ModalUserController)
-
-import RoomChannelController from "./room_channel_controller.js"
-application.register("room-channel", RoomChannelController)
-
-import ScrollController from "./scroll_controller.js"
-application.register("scroll", ScrollController)
+import ChatRefreshController from "./chat_refresh_controller"
+application.register("chat_refresh", ChatRefreshController)
